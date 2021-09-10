@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/moeali-800x800.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -88,8 +88,8 @@ class Profile extends React.Component {
                         <Button
                           className="mr-4"
                           color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          href="https://www.facebook.com/gtssss/"
+                          target="_blank"
                           size="sm"
                         >
                           Connect
@@ -97,8 +97,8 @@ class Profile extends React.Component {
                         <Button
                           className="float-right"
                           color="default"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          href="https://www.facebook.com/gtssss/"
+                          target="_blank"
                           size="sm"
                         >
                           Message
@@ -108,15 +108,15 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
+                          <span className="heading">400+</span>
                           <span className="description">Friends</span>
                         </div>
                         <div>
-                          <span className="heading">10</span>
+                          <span className="heading">900+</span>
                           <span className="description">Photos</span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
+                          <span className="heading">3200+</span>
                           <span className="description">Comments</span>
                         </div>
                       </div>
@@ -124,31 +124,37 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
+                      Mohammad Khalil{" "}
                       <span className="font-weight-light">, 27</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Amman, Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Developer and Designer - FreeLancer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Luminus Technical University College
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                          I pride myself on my Problem  <span style={{fontWeight: "bold"}}> Solving Skills</span>. I believe my real strength is my ability to truly understand what the client wants
+                          and provide him with the <span style={{fontWeight: "bold"}}>Solution</span> he needs.
+
+                          so I always look at things from the user's view, what they need and  think how I can serve them in the best way.
+                          which helps me to increase my <span style={{fontWeight: "bold"}}>Success</span>, reduce problems and that's what I am passionate about.
+
+                          I have a good background in helping companies increase there own <span style={{fontWeight: "bold"}}>growth</span>.
+                          <br/>
+                          <span style={{fontWeight: "bold"}}>“Wisdom equal Knowledge and Experience, Always Work Always Learn.”</span>
+                          
+
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
